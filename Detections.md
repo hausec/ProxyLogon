@@ -8,13 +8,20 @@
 
 • Several mitigation scripts by MS here https://github.com/microsoft/CSS-Exchange/tree/main/Security
 
-•  CVE-2021-26857 exploitation can be detected via the Windows Application event logs
-	• Exploitation of this deserialization bug will create Application events with the following properties:
+• CVE-2021-26857 exploitation can be detected via the Windows Application event logs
+
+• Exploitation of this deserialization bug will create Application events with the following properties:
+
 		• Source: MSExchange Unified Messaging
+		
 		• EntryType: Error
+		
 		• Event Message Contains: System.InvalidCastException
-		• Following is PowerShell command to query the Application Event Log for these log entries:
+		
+		• Following is PowerShell command to query the Application Event Log for these log entries:		
 			`Get-EventLog -LogName Application -Source "MSExchange Unified Messaging" -EntryType Error | Where-Object { $_.Message -like "*System.InvalidCastException*" }`
+			
 Resource:
+
 https://www.microsoft.com/security/blog/2021/03/02/hafnium-targeting-exchange-servers/
 
