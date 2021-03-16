@@ -2,7 +2,7 @@
 
 • Patch https://techcommunity.microsoft.com/t5/exchange-team-blog/released-march-2021-exchange-server-security-updates/ba-p/2175901
 
-• Run literally one executable to fix it https://github.com/microsoft/CSS-Exchange/tree/main/Security
+• Run literally one script to fix it https://github.com/microsoft/CSS-Exchange/tree/main/Security
 
 • Monitor IIS logs or place SACL to monitor when anything is written to `C:\Program Files\Microsoft\Exchange Server\V15\FrontEnd\HttpProxy\owa\auth\`
 
