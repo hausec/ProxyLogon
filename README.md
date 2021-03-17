@@ -14,8 +14,15 @@ By default, it will create a file `test.aspx`. This can be changed.
 
 ![](Images/screenshot.PNG)
 
+
+### Support:
+
+This project is not supported but PRs are open :)
+
 ### Special Thanks and resources:
 
 @Flangvik
 @Testanull
 https://www.praetorian.com/blog/reproducing-proxylogon-exploit/
+
+
